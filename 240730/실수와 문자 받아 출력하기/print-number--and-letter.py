@@ -1,4 +1,4 @@
-c="C"
+c=input()
 a=float(input())
 b=float(input())
 print(c)
