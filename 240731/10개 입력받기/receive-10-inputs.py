@@ -7,3 +7,4 @@ for elem in arr:
         break
     cnt+=1
     sum+=elem
+print(f"{sum} {sum/cnt:.1f}")
