@@ -4,6 +4,7 @@ arr=list(map(int,input().split()))
 arr.sort()
 for elem in arr:
     print(elem, end=" ")
-arr.sort(reversed=True)
+print()
+arr.sort(reverse=True)
 for elem in arr:
     print(elem, end=" ")
