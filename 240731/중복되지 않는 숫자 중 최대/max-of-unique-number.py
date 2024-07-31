@@ -1,12 +1,20 @@
-n=int(input())
-arr=list(map(int,input().split()))
-newarr=[]
-maxval=-1
-for i in range(n):
-    if arr[i] not in newarr:
-        newarr.append(arr[i])
-        if arr[i] > maxval:
-            maxval=arr[i]
-    
-    
-print(maxval)
+n = int(input())
+nums = list(map(int, input().split()))
+
+
+max_num = -1
+
+for curr_num in nums:
+
+    if max_num < curr_num:
+  
+        count = 0
+        for elem in nums:
+            if elem == curr_num:
+                count += 1
+        
+
+        if count == 1:
+            max_num = curr_num
+
+print(max_num)
