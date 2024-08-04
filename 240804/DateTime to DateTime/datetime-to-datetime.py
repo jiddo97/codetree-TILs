@@ -5,7 +5,7 @@ while True:
     if d==a and e==b and f==c:
         break
     elif a < d and b <e and c<f:
-        print(-1)
+        elapsed=-1
         break
 
     elapsed+=1
