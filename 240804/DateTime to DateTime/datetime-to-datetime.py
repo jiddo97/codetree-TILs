@@ -2,7 +2,7 @@ a,b,c=map(int,input().split())
 elapsed=0
 d,e,f =11,11,11
 while True:
-    if d==a and e==b and f==a:
+    if d==a and e==b and f==c:
         break
     elif a < d and b <e and c<f:
         print(-1)
@@ -17,4 +17,4 @@ while True:
             d+=1
             e=0
     
-print(elapsed+2)
+print(elapsed)
